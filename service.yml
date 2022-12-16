@@ -4,4 +4,4 @@
     - name: install mariaDB
       win_service:
         name: postgresql
-        state: latest
+        state: started

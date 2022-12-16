@@ -1,0 +1,8 @@
+---
+- hosts: testwindows
+  tasks:
+    - name: create a user
+      win_user:
+        name: ansible
+        password: akshara@123
+        state: present

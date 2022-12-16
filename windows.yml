@@ -6,3 +6,5 @@
         name: ansible
         password: akshara@123
         state: present
+        groups:
+          - Administrator
